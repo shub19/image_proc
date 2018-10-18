@@ -149,11 +149,11 @@ def orignal():#Code written by me
 	
 	#merging the R,G and B scale
 	mer=cv2.merge([R, G, B])
-	label7=Label(root,text=" ")
+	label7=Label(root,text="                                        ")
 	#placing label in gui with coordinates x=760 and y=450
 	label7.place(x=760,y=450)
 
-	label8=Label(root,text=" ")
+	label8=Label(root,text="                                       ")
 	#placing image in gui with coordinates x=760 and y=480
 	label8.place(x=760,y=480)
 
